@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perman Kakajanow - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Perman Kakajanow</h1>
+    <p>Web Programmist | HTML • CSS • JavaScript</p>
+    <nav>
+      <a href="#men">Men barada</a>
+      <a href="#işlerim">Işlerim</a>
+      <a href="#habarlas">Habarlaş</a>
+    </nav>
+    <br>
+    <button id="tema-btn" onclick="temaÜýtget()">🌙 Tema üýtget</button>
+  </header>
+
+  <section id="men">
+    <h2>👨‍💻 Men barada</h2>
+    <p>Men häzirki wagtda web programmirleme ugrunda işleýärin. Maksadym döwrebap, täsirli we peýdaly web sahypalary döretmekdir. 
+       Bu portfoliýa meniň HTML, CSS we JavaScript boýunça öwrenen işlerimi görkezýär.</p>
+  </section>
+
+  <section id="işlerim">
+    <h2>🧩 Işlerim</h2>
+    <div class="bloklar">
+      <div class="blok">
+        <h3>Hasaplaýjy App</h3>
+        <p>Iki sany san giriz, düwmä bas — netije görkezilýär.</p>
+      </div>
+      <div class="blok">
+        <h3>Tema Üýtgediji</h3>
+        <p>Sahypanyň fonuny gara / ak görnüşde üýtgedýär.</p>
+      </div>
+      <div class="blok">
+        <h3>Surat Galereýasy</h3>
+        <p>Dügme basylanda suratlaryň arasynda geçýär.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="habarlas">
+    <h2>📬 Habarlaş</h2>
+    <form onsubmit="ugrat(); return false;">
+      <input id="ady" placeholder="Adyňy giriz"><br>
+      <input id="email" placeholder="Email giriz"><br>
+      <textarea id="habar" placeholder="Habaryňy ýaz"></textarea><br>
+      <button type="submit">Ugrat</button>
+    </form>
+    <p id="netije"></p>
+  </section>
+
+  <footer>
+    © 2025 Perman Kakajanow — Ähli hukuklar goralan.
+  </footer>
+
+  <script src="script.js">
+
+  </script>
+
+</body>
+</html>
